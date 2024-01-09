@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from django.shortcuts import render, HttpResponse
 from.models import PersonItem
 
@@ -8,3 +7,6 @@ from.models import PersonItem
 def home(request):
 	Personas = PersonItem.objects.all()
 	return render(request, 'home_myapp.html',{"personas": Personas})
+
+def contact(request):
+	return render(request, 'contact.html')
