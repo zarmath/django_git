@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-pjf=ko%hm0tc!w5*ka%-4d4#omhes4$&u!wq4!!l4l8c0=*9n(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['daviniel.pythonanywhere.com']
 
 
 # Application definition
